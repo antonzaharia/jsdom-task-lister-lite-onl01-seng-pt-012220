@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (imp === "first"){
       li.style.color = "red";
     } else if (imp === "second") {
+      li.style.color = "yellow";
+    } else if (imp === "third") {
       li.style.color = "green";
     }
     let xButton = document.createElement('button');
