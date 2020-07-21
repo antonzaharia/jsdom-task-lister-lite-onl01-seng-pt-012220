@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let imp = document.getElementById("new-task-imp").value;
     if (imp === "first"){
       li.style.color = "red";
+    } else if (imp === "second") {
+      li.style.color = "green";
     }
     let xButton = document.createElement('button');
     xButton.appendChild(document.createTextNode("X"));
