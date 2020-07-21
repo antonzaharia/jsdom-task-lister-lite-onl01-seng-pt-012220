@@ -6,10 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let li = document.createElement('li');
     let liText = document.createTextNode(input);
     let imp = document.getElementById("new-task-imp").value;
-    console.log(imp);
     if (imp === "first"){
-      // liText.style.color = "red";
-      console.log(imp);
+      liText.style.color = "red";
     }
     let xButton = document.createElement('button');
     xButton.appendChild(document.createTextNode("X"));
