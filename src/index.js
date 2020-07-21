@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (imp === "first"){
       li.style.color = "red";
     } else if (imp === "second") {
-      li.style.color = "yellow";
+      li.style.color = "orange";
     } else if (imp === "third") {
       li.style.color = "green";
     }
