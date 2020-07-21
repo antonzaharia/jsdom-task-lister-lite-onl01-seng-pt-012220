@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let imp = document.getElementById("new-task-imp").value;
     if (imp == "first"){
       li.style.color = "red";
-    }
+    };
     let xButton = document.createElement('button');
     xButton.appendChild(document.createTextNode("X"));
     xButton.setAttribute("data-description", `${input}`);
